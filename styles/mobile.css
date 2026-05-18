@@ -1,0 +1,51 @@
+@media only screen and (max-width: 980px) {
+    nav { 
+        padding:0 0em;
+    }
+    nav > ul {
+        float:none;
+        display:none;
+        padding:0;
+        margin:0;
+    }
+    nav > ul > li > a {
+        width:100%;
+        display:block;
+    }
+    burger {
+        display:block;
+        font-size:2em;
+        padding:0.25em .5em;
+        border-radius:5px;
+        margin:0.15em 0.15em;
+    }
+    burger {
+        float:right;
+    }
+    burger:hover {
+        cursor:pointer;
+        background-color:#598392;
+    }
+
+    #show {
+        display:inline-block;
+        width:100%;
+    }
+
+    #hide {
+        display:none;
+    }
+    header {
+        padding:4em 2.5em;
+    }
+    section {
+        padding:3em;
+    }
+    div > div > span {
+        padding:0.5em 0.5em;
+        padding-left:0;
+    }
+    input {
+        margin-bottom:0.25em;
+    }
+  }

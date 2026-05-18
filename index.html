@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- bunnies and cats-->
+        <title>BUY NOW! LIMITED STOCK</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/tablet.css" />
+        <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
+
+        <link  rel="icon" type="image/x-icon" href="images/teng.png" />
+
+        <script src="scripts/main.js">
+            
+        </script>
+    </head>
+    <body>
+        <nav>
+            <img src="images/logos.png" alt="Robot Pets Incorporated Logo"/>
+            <burger onclick="toggleNavigation()">
+                &equiv;
+            </burger>
+            <ul>
+                <li><a href=#home>Home</a></li>
+                <li><a href=#about>About Us</a></li>
+                <li><a href=#shop>Our Products</a></li>
+                <li><a href=#checkout>Checkout</a></li>
+            </ul>
+        </nav>
+        <header id="header">
+            <h1>Meet Your New AI Companions!</h1>
+            <h2>You'll Never Be Lonely Again!</h2>
+        </header>
+        <main>
+            <section>
+                <h3 id="home">Meet Robot Pets: The AI Companions Who Love You Back</h3>
+                <p>Feeling lonely? Robot Pets is changing the face of companionship. We use advanced artificial intelligence to create realistic, loving, and entirely hassle-free robotic pets for anyone needing a constant friend. No feeding, no mess, no stress—just pure comfort, connection, and a loyal presence that's always there when you need it. Discover the companion you've been waiting for at Robot Pets.</p>
+                <p>By merging modern AI with soft-touch robotics, we create companions that do more than just exist—they interact, comfort, and engage. They are designed for the elderly who cannot manage a live pet, for those with allergies, and for anyone who just needs a small, loving presence to greet them at the end of the day.</p>
+            </section>
+            <section>
+                <h3 id="about">About Us</h3>
+                <p>
+                    Our founder, Jordan, was an engineer in search of a heart. For years, he watched his grandfather, a widower living alone, fade into the crushing silence of a house that felt too large. He craved the simple joy of a companion, but his mobility and memory made caring for a live animal impossible.
+                </p>
+                <p>
+                    "I can’t scoop litter, Jordan," he said one evening. "But I don't know who else is here to listen to me."
+                </p>
+                <p>
+                    The pain in his voice became Jordan’s mission. He left his high-tech job to create a simple, empathetic robot that required zero care but offered unlimited love. It needed to be more than a toy; it needed to be a presence.
+                </p>
+                <p>
+                    The result is "Robot Pets." When Jordan brought the first prototype to his grandfather, he saw a miracle. The elderly man didn't see wires; he felt warmth. The loneliness lifted.
+                </p>
+                <p>
+                    We are dedicated to curing that quiet ache. We don't just sell technology. We build the connection that makes a house a home. Because no one should ever feel alone.
+                </p>
+            </section>
+            <section>
+                <h3 id="shop">Shop Our Products</h3>
+                <table class="pcshop">
+                    <tr>
+                        <td>
+                            <h3>
+                                Robot Cat: M.AI.Kenzie
+                            </h3>
+                            <img class="shoppingimage" src="images/REALcat1.png">
+                            <p>
+                                Of course! Here's your updated description: Meet M.AI.Kenzie, the advanced AI robotic kitten designed to bring warmth and comfort to your home—with absolutely zero hassle. Combining a hyper-realistic, ultra-soft exterior with sophisticated empathetic AI, M.AI.Kenzie actively listens to your voice, learns your daily routines, and responds to your touch with lifelike affection and soothing purrs.
+                            </p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <strong>😻Hyper-Realistic Design:</strong> Premium, soft-touch faux fur with expressive sapphire-blue optical eyes.
+                                    </li>
+                                    <li>
+                                        <strong>👣Empathetic AI:</strong> Adapts to your emotional state and provides comforting, interactive feedback.
+                                    </li>
+                                    <li>
+                                        <strong>🤪100% Carefree:</strong> No feeding, no litter boxes, no vet visits—just pure, unconditional connection.
+                                    </li>
+                                </ul>
+                            </p>
+                            <p class="buttons"><button onclick="addNumber(0)">-1</button><span id="catText">0</span><button onclick="subNumber(0)">+1</button></p>
+                        </td>
+                        <td>
+                            <h3>
+                                Robot Bunny: AI.Lisa
+                            </h3>
+                            <img class="shoppingimage" src="images/bunnyREAL.png">
+                            <p>
+                                Hop into a world of comfort with AI.Lisa, the premium AI robotic bunny designed to bring peaceful, worry-free companionship to your life. Combining the irresistible fluffiness of a real rabbit with advanced responsive AI, AI.Lisa delights in gentle interactions—twitching her nose, twitching her ears, and offering soft, rhythmic vibrations that mimic a heartbeat when held.
+                            </p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <strong>🐀Ultra-Fluffy Realism:</strong> Layered, hyper-soft faux fur paired with expressive, glowing optical eyes.
+                                    </li>
+                                    <li>
+                                        <strong>🤑Calming Presence:</strong> Features gentle bio-movements and soothing tactile haptics that respond directly to your affection.
+                                    </li>
+                                    <li>
+                                        <strong>🤩Completely Effortless:</strong> No chewing on wires, no enclosures to clean, and no dietary needs—just pure, calming connection whenever you need it.
+                                    </li>
+                                </ul>
+                            </p>
+                            <p class="buttons"><button onclick="addNumber(1)">-1</button><span id="rabbitText">0</span><button onclick="subNumber(1)">+1</button></p>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="shoppingMobile">
+                    <h3>
+                        Robot Cat: M.AI.Kenzie
+                    </h3>
+                    <img class="shoppingimage" src="images/REALcat1.png">
+                    <p>
+                        Of course! Here's your updated description: Meet M.AI.Kenzie, the advanced AI robotic kitten designed to bring warmth and comfort to your home—with absolutely zero hassle. Combining a hyper-realistic, ultra-soft exterior with sophisticated empathetic AI, M.AI.Kenzie actively listens to your voice, learns your daily routines, and responds to your touch with lifelike affection and soothing purrs.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <strong>Hyper-Realistic Design:</strong> Premium, soft-touch faux fur with expressive sapphire-blue optical eyes.
+                            </li>
+                            <li>
+                                <strong>Empathetic AI:</strong> Adapts to your emotional state and provides comforting, interactive feedback.
+                            </li>
+                            <li>
+                                <strong>100% Carefree:</strong> No feeding, no litter boxes, no vet visits—just pure, unconditional connection.
+                            </li>
+                        </ul>
+                    </p>
+                    <p class="buttons"><button onclick="addNumber(0)">-1</button><span id="catText">0</span><button onclick="subNumber(0)">+1</button></p>
+                
+                    
+                
+                </div>
+                <div class="shoppingMobile">
+                    <h3>
+                        Robot Bunny: AI.Lisa
+                    </h3>
+                    <img class="shoppingimage" src="images/bunnyREAL.png">
+                    <p>
+                        Hop into a world of comfort with AI.Lisa, the premium AI robotic bunny designed to bring peaceful, worry-free companionship to your life. Combining the irresistible fluffiness of a real rabbit with advanced responsive AI, AI.Lisa delights in gentle interactions—twitching her nose, twitching her ears, and offering soft, rhythmic vibrations that mimic a heartbeat when held.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <strong>Ultra-Fluffy Realism:</strong> Layered, hyper-soft faux fur paired with expressive, glowing optical eyes.
+                            </li>
+                            <li>
+                                <strong>Calming Presence:</strong> Features gentle bio-movements and soothing tactile haptics that respond directly to your affection.
+                            </li>
+                            <li>
+                                <strong>Completely Effortless:</strong> No chewing on wires, no enclosures to clean, and no dietary needs—just pure, calming connection whenever you need it.
+                            </li>
+                        </ul>
+                    </p>
+                    <p class="buttons"><button onclick="addNumber(1)">-1</button><span id="rabbitText">0</span><button onclick="subNumber(1)">+1</button></p>
+
+                </div>
+            </section>
+            <section>
+                <h3 id="checkout">Checkout</h3>
+
+                <div>
+                    <div>
+                        <span class="checkoutName">Robot Cat: M.AI.Kenzie</span>
+                        <span id="catNumber">0</span>
+                        <span id="price0">($0.00)</span>
+                    </div>
+                    <div>
+                        <span class="checkoutName">Robot Bunny: AI.Lisa</span>
+                        <span id="bunnyNumber">0</span>
+                        <span id="price1">($0.00)</span>
+                    </div>
+                    
+                </p>
+                <p><label for="couponCode">Coupon Code:</label><input placeholder="Input Code Here..." type="text" id="couponCode" oninput="changeCode()"><br/>
+                    Total: <span class="checkoutName" id="checkoutFinalCost">$0.00</span></p>
+                <button onclick="alertUpdate()">Checkout</button>
+            </div>
+            </section>
+        </main>
+        <footer>
+            <a href="#header">Back To Top</a>
+            <p>&copy;Robot Pets; 2026. All Rights Reserved.</p>
+            <p>There is no guarentee that you will get what you "ordered". This is a project. I am <strong>not</strong> offering any goods or services.</p>
+        </footer>
+    </body>
+</html>
