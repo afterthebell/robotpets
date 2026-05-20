@@ -78,6 +78,9 @@ function updateScreen() {
     if(code === "Jordy") {
         finalCost *= 0.8;
     }
+    if(code === "Teng") {
+        finalCost *= 0.5;
+    }
     // adds sales tax (ma)
     finalCost *= 1.0625;
     // updates final price output 
