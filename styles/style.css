@@ -2,6 +2,11 @@
     box-sizing: border-box;
     trANSITION:0.2S;
 }
+
+::selection {
+    background-color:#598392;
+    color:aliceblue;
+}
 body {
     padding:0;
     margin:0;
